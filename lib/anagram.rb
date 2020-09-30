@@ -6,7 +6,7 @@ attr_accessor :word
   end
 
   def match(array)
-    array.select do |ana| (@word.split("").sort) == (element.split("").sort)
+    array.select do |ana| (@word.split("").sort) == (ana.split("").sort)
     end
   end
 
